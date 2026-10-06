@@ -1,0 +1,35 @@
+-->REACT:   A JavaScript 'library' for building user interfaces using reusable components.
+-->It is library, not a framework.
+
+-->COMPONENTS:   Reusable building blocks of a React application that contain their own UI and logic.
+-->Think of components like LEGO blocks--> you build small pieces and combine them to create the complete webpage.
+
+-->JSX (JavaScript XML):   A syntax that lets you write HTML-like code inside JavaScript, commonly used in React.
+-->Syntax extension of JavaScript
+
+-->Virtual DOM:   A lightweight copy of the real DOM that React uses to efficiently determine what needs to be updated on the webpage.
+-->without reloading page everytime like we do in real DOM, here in virtual DOM--> we can apply changes to a specific portion of page without reloding.
+
+--> npm = node package manager
+
+-->npm create vite@latest
+    wrtie a project name
+    select a framework = React
+    select a variant = JavaScript
+    which linter to use? = ESlint
+
+    cd my poject_name
+    npm install
+    npm run dev  -->  a sample counter project will appear
+
+--> Node modueles = contains all the external packages/dependencies that your React project needs to run, such as React, Vite, and other braries.
+--> public = Stores static files that Vite serves directly to the browser using their root-relative URL, without importing them into React..(static = The file is served as it is, without React modifying or processing it.)
+--> src = contains the main source code of your React application, including components, JSX, CSS and source assets.
+            ---> assets = stores images, icons, fonts, and other resources used by the React source code.
+            ---> App.jsx = contains the main App React component that represents the main UI of your application.
+            ---> App.csx = contains CSS styles used to style the App and it's related UI.
+            ---> index.css = contains global CSS styles that can apply throughout the entire React application.
+            ---> main.jsx = the entry point that renders the React App component into the HTML page.
+                            It connects yout React code to the HTML element in index.html.
+--> index.html = The main HTML entry page that provides the 'root' container where the React 'renders' the application.     
+--> package.json = is the configuration file that contains information about your project, its dependencies(packages), and the commands/scripts used to run or build it.
