@@ -1,0 +1,15 @@
+.welcome-message{
+  font-size: 1.5em;
+  background-color: hsla(115, 69%, 81%, 0.8);
+  padding : 10px;
+  border-radius: 5px;
+  margin: 10px; 
+}
+
+.login-message{
+  font-size: 1.5em;
+  background-color: hsla(0, 75%, 75%, 0.8);
+  padding : 10px;
+  border-radius: 5px;
+  margin: 10px; 
+}
