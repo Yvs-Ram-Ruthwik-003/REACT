@@ -1,0 +1,6 @@
+.student{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5em;
+  padding: 10px;
+  border: 1px solid hsla(0, 0%, 50%, 0.8);
+}
