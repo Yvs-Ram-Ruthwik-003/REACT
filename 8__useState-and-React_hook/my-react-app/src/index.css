@@ -1,0 +1,46 @@
+.container{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.increment{
+    padding :5px 12px;
+    border-radius: 150px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.25s;
+    font-size: 0.5em;
+}
+
+.decrement{
+    padding :5px 12px;
+    border-radius: 150px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.25s;
+    font-size: 0.5em;
+}
+
+.reset{
+    padding :5px 12px;
+    border-radius: 150px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.25s;
+    font-size: 0.5em;
+}
+
+.increment:hover{
+    color:white;
+    background-color: blueviolet;
+}
+
+.decrement:hover{
+    color:white;
+    background-color: blueviolet;
+}
+
+.reset:hover{
+    color:white;
+    background-color: rgb(188, 114, 114);
+}
